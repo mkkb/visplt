@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from visplt import __version__
 
@@ -15,7 +15,7 @@ setup(
     author='Kristian Borve',
     author_email='mkkb4987@hotmail.com',
 
-    py_modules=['visplt'],
+    packages=find_packages(),
     
     install_requires=requires,
 )
