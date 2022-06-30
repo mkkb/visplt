@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 from visplt import __version__
 
 requires = [
-  'numpy',
-  'vispy',
+    'numpy',
+    'vispy',
 ]
 
 setup(

@@ -3,6 +3,6 @@ channels:
   - anaconda
   - conda-forge
 dependencies:
-  - python=3.8
-  - vispy
+  - python=3.10
+  - vispy=0.7.3
   - numpy
